@@ -1,0 +1,419 @@
+body,
+html {
+    background-color: #222222;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h1{
+    font-size: 80px;
+    font-family:'Times New Roman', Times, serif
+
+}
+.rainbow-text {
+    animation: rainbow 10s infinite linear;
+}
+
+@keyframes rainbow {
+    0% {
+        color: rgb(211, 211, 211);
+    }
+
+    40% {
+        color: rgb(211, 211, 211);
+    }
+
+    50% {
+        color: rgb(255, 0, 251);
+    }
+
+    60% {
+        color: rgb(255, 0, 251);
+    }
+
+    70% {
+        color:rgb(211, 211, 211);
+    }
+
+    80% {
+        color: rgb(255, 0, 251);
+    }
+
+    90% {
+        color: rgb(211, 211, 211);
+    }
+
+    100% {
+        color: rgb(211, 211, 211);
+    }
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 350px;
+    width: 1100px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    height: 300px;
+    max-width: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.count {
+    font-size: 30px;
+    color: rgb(255, 158, 158);
+}
+
+.indiAA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: #000000;
+}
+
+.indicator {
+    position: absolute;
+    display: inline;
+    font-family: 'Yu Gothic UI', Courier, monospace ;
+    font-variant-numeric: slashed-zero;
+    color: rgb(225, 225, 225);
+    font-size: 180px;
+}
+
+.encourage {
+    font-size: 30px;
+    color: rgb(255, 95, 95);
+    margin-right: -170px;
+    margin-bottom: -200px;
+    transform: rotate(-20deg);
+    position: absolute;
+}
+
+.corCl {
+    font-size: 30px;
+    color: rgb(99, 229, 255);
+    margin-right: 170px;
+    margin-bottom: -200px;
+    transform: rotate(20deg);
+    position: absolute;  
+}
+
+.comment {
+    font-size: 20px;
+}
+
+.training {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    color: aliceblue;
+}
+
+.keyboard {
+    margin: auto;
+    width: 1140px;
+    height: 350px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.ko {
+    box-shadow: 0px 1px 2px 1px rgb(174, 194, 24);
+    color: rgb(252, 255, 227);
+    background-color: rgb(37, 39, 0);
+
+}
+
+.kusuri {
+    background-color: rgb(0, 34, 37);
+    box-shadow: 0px 1px 2px 1px rgb(52, 173, 189);
+    color: rgb(234, 253, 255);
+
+}
+
+.naka {
+    box-shadow: 0px 1px 2px 1px rgb(102, 206, 54);
+    background-color: rgb(0, 30, 4);
+    color: rgb(238, 255, 231);
+}
+
+.hitosashi {
+    box-shadow: 0px 1px 2px 1px rgb(201, 108, 193);
+    color: rgb(255, 234, 253);
+    background-color: #1e001e;
+
+}
+
+.fantasy {
+    font-size: 25px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 20px;
+    display: inline-block;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    font-weight: bold;
+    margin: 5px;
+}
+
+.fantasy-red {
+    color: rgb(249, 249, 249);
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0px 3px 10px 2px rgb(255, 255, 255);
+}
+
+.yellow {
+    color: rgb(246, 255, 147);
+    background-color: rgb(68, 69, 0);
+    box-shadow: 0px 3px 10px 2px rgb(235, 255, 103);
+}
+
+.blue {
+    color: rgb(190, 208, 255);
+    background-color: rgb(0, 36, 94);
+    box-shadow: 0px 3px 10px 2px rgb(96, 165, 255);
+}
+
+.green {
+    color: rgb(198, 255, 192);
+    background-color: rgb(6, 67, 0);
+    box-shadow: 0px 3px 10px 2px rgb(107, 255, 104);
+}
+
+.purple {
+    color: rgb(255, 182, 250);
+    background-color: rgb(74, 0, 69);
+    box-shadow: 0px 3px 10px 2px rgb(255, 119, 235);
+}
+
+
+.quest {
+
+    /* color: rgb(255, 0, 0); */
+    background-color: rgb(63, 63, 63);
+    box-shadow: 0px 3px 7px 3px rgb(255, 255, 255);
+}
+
+.original-button {
+    color: azure;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+    transition: 0.3s;
+    background-color: transparent;
+}
+
+.original-button:hover {
+    background-color: #636363;
+}
+
+.button-container {
+    display: inline-block;
+}
+
+.countdownIlumi {
+    color: rgb(255, 255, 255);
+    background-color: rgb(63, 63, 63);
+    box-shadow: 0px 3px 7px 3px rgb(255, 255, 255);
+}
+
+h1 {
+    color: #d0c7cf;
+}
+
+.explain {
+    font-size: 20px;
+    color: azure;
+}
+
+.misFont {
+    background-color: rgb(126, 30, 30);
+}
+
+.blind {
+    color: transparent;
+}
+
+/* animation */
+.gameStart {
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 3px;
+    width: 60px;
+    height: 60px;
+    color: transparent;
+    cursor: pointer;
+}
+
+.gameStarthover {
+    color: rgb(255, 255, 255);
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(450deg);
+    }
+}
+
+.stopButton {
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 180px;
+    height: 40px;
+    color: #d0c7cf;
+    cursor: pointer;
+}
+
+.stopButton:hover {
+    color: rgb(237, 237, 237);
+    background-color: #363636;
+}
+
+.correct {
+    color: #d0c7cf;
+    animation-name: rotate2;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: scale(1);
+    }
+    
+    30% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.1);
+    }
+}
+
+.misAni {
+    color: #d0c7cf;
+    animation-name: rotate3;
+    animation-duration: 0.2s;
+}
+
+@keyframes rotate3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-20deg);
+    }
+}
+
+.gameClicked {
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 0px 10px 2px rgb(199, 199, 199);
+    animation-name: clickedAni;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clickedAni {
+    0% {
+        transform: rotate(80deg);
+    }
+
+    50% {
+        transform: rotate(100deg);
+    }
+
+    100% {
+        transform: rotate(80deg);
+    }
+}
+
+
+.koButton {
+    box-shadow: 0px 1px 2px 1px rgb(174, 194, 24);
+    background-color: rgb(37, 39, 0);
+}
+
+.kusuriButton {
+    background-color: rgb(0, 34, 37);
+    box-shadow: 0px 1px 2px 1px rgb(52, 173, 189);
+}
+
+.nakaButton {
+    box-shadow: 0px 1px 2px 1px rgb(102, 206, 54);
+    background-color: rgb(0, 30, 4);
+}
+
+.hitosashiButton {
+    box-shadow: 0px 1px 2px 1px rgb(201, 108, 193);
+    background-color: #1e001e;
+}
+
+.red {
+    box-shadow: 0px 1px 2px 1px rgb(198, 0, 0);
+    background-color: #3a0000;
+}
+
+.black {
+    box-shadow: 0px 1px 2px 1px rgb(126, 126, 126);
+    background-color: #242424;
+}
+
+.radio-container {
+    display: flex;
+    align-items: center;
+}
+
+.radio-input {
+    display: none;
+}
+
+.radio-style {
+    width: 60px;
+    height: 60px;
+    color: rgb(249, 249, 249);
+    background-color: rgb(16, 16, 16);
+    box-shadow: 0px 1px 1px 1px rgb(122, 122, 122);
+    border-radius: 30%;
+    margin: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.radio-input:checked+.radio-style {
+    color: rgb(143, 255, 246);
+    background-color: rgb(0, 50, 43);
+    box-shadow: 0px 3px 10px 2px rgb(0, 213, 191);
+}

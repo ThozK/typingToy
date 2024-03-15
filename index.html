@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Toy</title>
+
+
+    <link rel="stylesheet" href="./scale-in-hor-left.css">
+    <link rel="stylesheet" href="./accordion.css">
+    <link rel="stylesheet" href="./styleKeyboardGameBlack.css">
+
+</head>
+
+
+
+<body>
+    <h1><span class="rainbow-text">T</span>yping<span class="rainbow-text">T</span>oy</h1>
+    <div class="wrapper">
+        <div>
+            <div class="review">
+                
+            </div>
+        </div>
+        <div>
+            <div id="indiCont" class="indiAA">
+                <div id="indicator" class="indicator"></div>
+                <div id="encaurageId" class="encourage"></div>
+                <div id="corId" class="corCl"></div>
+
+            </div>
+        </div>
+
+        <div class="training">
+            <div >トレーニングモード</div>
+            <div class="button-container">
+                <button id="level1" class="gameStart hitosashiButton">▲</button>
+            </div>
+            <div class="button-container">
+                <button id="level2" class="gameStart nakaButton">▲</button>
+            </div>
+            <div class="button-container">
+                <button id="level3" class="gameStart kusuriButton">▲</button>
+            </div>
+            <br>
+            <div class="button-container">
+                <button id="level4" class="gameStart koButton">▲</button>
+            </div>
+            <div class="button-container">
+                <button id="level5" class="gameStart red">▲</button>
+            </div>
+            <div class="button-container">
+                <button id="level6" class="gameStart black">▲</button>
+            </div>
+            
+            <div>
+                <button id="stopgame" class="stopButton black">STOP</button>
+            </div>
+
+            <div class="radio-container">
+                キー表示
+                <input type="radio" class="radio-input" name="radioGroup" id="visibleButton" value="option1" checked>
+                <label class="radio-style" for="visibleButton">ON</label>
+        
+                <input type="radio" class="radio-input" name="radioGroup" id="blindButton" value="option2">
+                <label class="radio-style" for="blindButton">OFF</label>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="keyboard">
+        <div>
+            <span style="width:0px; display:inline-block"></span>
+            <span id="1" class="scale-in-hor-left fantasy ko">1</span>
+            <span id="2" class="scale-in-hor-left fantasy kusuri">2</span>
+            <span id="3" class="scale-in-hor-left fantasy naka">3</span>
+            <span id="4" class="scale-in-hor-left fantasy hitosashi">4</span>
+            <span id="5" class="scale-in-hor-left fantasy hitosashi">5</span>
+            <span id="6" class="scale-in-hor-left fantasy hitosashi">6</span>
+            <span id="7" class="scale-in-hor-left fantasy hitosashi">7</span>
+            <span id="8" class="scale-in-hor-left fantasy naka">8</span>
+            <span id="9" class="scale-in-hor-left fantasy kusuri">9</span>
+            <span id="0" class="scale-in-hor-left fantasy ko">0</span>
+            <span id="-" class="scale-in-hor-left fantasy ko">-</span>
+            <span id="^" class="scale-in-hor-left fantasy ko">^</span>
+            <span id="\" class="scale-in-hor-left fantasy ko">\</span>
+        </div>
+        <div>
+            <span style="width:30px; display:inline-block"></span>
+            <span id="q" class="scale-in-hor-left fantasy ko">Q</span>
+            <span id="w" class="scale-in-hor-left fantasy kusuri">W</span>
+            <span id="e" class="scale-in-hor-left fantasy naka">E</span>
+            <span id="r" class="scale-in-hor-left fantasy hitosashi">R</span>
+            <span id="t" class="scale-in-hor-left fantasy hitosashi">T</span>
+            <span id="y" class="scale-in-hor-left fantasy hitosashi">Y</span>
+            <span id="u" class="scale-in-hor-left fantasy hitosashi">U</span>
+            <span id="i" class="scale-in-hor-left fantasy naka">I</span>
+            <span id="o" class="scale-in-hor-left fantasy kusuri">O</span>
+            <span id="p" class="scale-in-hor-left fantasy ko">P</span>
+            <span id="@" class="scale-in-hor-left fantasy ko">@</span>
+            <span id="[" class="scale-in-hor-left fantasy ko">[</span>
+        </div>
+        <div>
+            <span style="width:60px; display:inline-block"></span>
+            <span id="a" class="scale-in-hor-left fantasy ko">A</span>
+            <span id="s" class="scale-in-hor-left fantasy kusuri">S</span>
+            <span id="d" class="scale-in-hor-left fantasy naka">D</span>
+            <span id="f" class="scale-in-hor-left fantasy hitosashi">F.</span>
+            <span id="g" class="scale-in-hor-left fantasy hitosashi">G</span>
+            <span id="h" class="scale-in-hor-left fantasy hitosashi">H</span>
+            <span id="j" class="scale-in-hor-left fantasy hitosashi">J.</span>
+            <span id="k" class="scale-in-hor-left fantasy naka">K</span>
+            <span id="l" class="scale-in-hor-left fantasy kusuri">L</span>
+            <span id=";" class="scale-in-hor-left fantasy ko">;</span>
+            <span id=":" class="scale-in-hor-left fantasy ko">:</span>
+            <span id="]" class="scale-in-hor-left fantasy ko">]</span>
+        </div>
+        <div>
+            <span style="width:90px; display:inline-block"></span>
+            <span id="z" class="scale-in-hor-left fantasy ko">Z</span>
+            <span id="x" class="scale-in-hor-left fantasy kusuri">X</span>
+            <span id="c" class="scale-in-hor-left fantasy naka">C</span>
+            <span id="v" class="scale-in-hor-left fantasy hitosashi">V</span>
+            <span id="b" class="scale-in-hor-left fantasy hitosashi">B</span>
+            <span id="n" class="scale-in-hor-left fantasy hitosashi">N</span>
+            <span id="m" class="scale-in-hor-left fantasy hitosashi">M</span>
+            <span id="," class="scale-in-hor-left fantasy naka">,</span>
+            <span id="." class="scale-in-hor-left fantasy kusuri">.</span>
+            <span id="/" class="scale-in-hor-left fantasy ko">/</span>
+            <span id="en2" class="scale-in-hor-left fantasy ko">\</span>
+        </div>
+
+    </div>
+    <div class="accordion">
+
+        <div class="option">
+            <input type="checkbox" id="toggle1" class="toggle">
+            <label class="title" for="toggle1">タイピングのコツ</label>
+            <div class="content">
+                <ul>
+                    <li>親指はスペースキーの上に、人差し指をFキーとJキーに載せます。FとJのキーだけが特別な感触であることに気づくはずです。</li>
+                    <li>各指に特定のキーが割り当てられています。自然な状態で、どの指がどのキーを触っているのかを確認しましょう。</li>
+                    <li>指を左上から右下の方向に動かすことでストレスの少ないタイピングが可能になります。</li>
+                    <li>画面上のキーボードは、指ごとに色分けされています。手元を見ずに、運指を意識してキーボードを押してみましょう。</li>
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script async src="keyboard.js"></script>
+</body>
+
+</html>
