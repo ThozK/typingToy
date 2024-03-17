@@ -9,8 +9,8 @@ html {
 }
 h1{
     font-size: 80px;
-    font-family:'Times New Roman', Times, serif
-
+    font-family:'Times New Roman', Times, serif;
+　　　margin: 10px;
 }
 .rainbow-text {
     animation: rainbow 10s infinite linear;
